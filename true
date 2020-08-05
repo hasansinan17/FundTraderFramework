@@ -1,0 +1,161 @@
+[1595723062.614][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 3241
+[1595723062.614][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1595723063.084][INFO]: [8b182091179ad17b3ffdac675353a426] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1595723063.085][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1595723063.088][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1595723063.106][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\somut\AppData\Local\Temp\scoped_dir760_1229166897\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\somut\AppData\Local\Temp\scoped_dir760_1564102876" data:,
+[1595723063.691][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1595723065.699][INFO]: [8b182091179ad17b3ffdac675353a426] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.89",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "C:\\Users\\somut\\AppData\\Local\\Temp\\scoped_dir760_1564102876"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50325"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "8b182091179ad17b3ffdac675353a426"
+}
+[1595723065.704][INFO]: [8b182091179ad17b3ffdac675353a426] COMMAND MaximizeWindow {
+
+}
+[1595723065.704][INFO]: Waiting for pending navigations...
+[1595723065.706][INFO]: Done waiting for pending navigations. Status: ok
+[1595723065.707][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1595723067.713][INFO]: Waiting for pending navigations...
+[1595723067.713][INFO]: Done waiting for pending navigations. Status: ok
+[1595723067.713][INFO]: [8b182091179ad17b3ffdac675353a426] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1595723067.718][INFO]: [8b182091179ad17b3ffdac675353a426] COMMAND SetTimeouts {
+   "implicit": 10000
+}
+[1595723067.718][INFO]: [8b182091179ad17b3ffdac675353a426] RESPONSE SetTimeouts
+[1595723067.725][INFO]: [8b182091179ad17b3ffdac675353a426] COMMAND Navigate {
+   "url": "http://166.62.36.207/humanresources/symfony/web/index.php/auth/login"
+}
+[1595723067.725][INFO]: Waiting for pending navigations...
+[1595723067.726][INFO]: Done waiting for pending navigations. Status: ok
+[1595723068.078][INFO]: Waiting for pending navigations...
+[1595723074.647][INFO]: Done waiting for pending navigations. Status: ok
+[1595723074.647][INFO]: [8b182091179ad17b3ffdac675353a426] RESPONSE Navigate
+[1595723076.353][INFO]: [8b182091179ad17b3ffdac675353a426] COMMAND Screenshot {
+
+}
+[1595723076.353][INFO]: Waiting for pending navigations...
+[1595723076.353][INFO]: Done waiting for pending navigations. Status: ok
+[1595723076.684][INFO]: Waiting for pending navigations...
+[1595723076.684][INFO]: Done waiting for pending navigations. Status: ok
+[1595723076.684][INFO]: [8b182091179ad17b3ffdac675353a426] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAN4CAYAAAAiLPWhAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3VlwXOd5//nv6W4ABEgQBAiS4L6Dm7iIi0RqoWxLtiQnjuX84/yTuCaJkynnbi4ml6lUzeVU5S41Va7UJFVOZRz/y6okFi3ZsrVRtBaKosR9BUmRIEHsIPa9+..."
+[1595723076.736][INFO]: [8b182091179ad17b3ffdac675353a426] COMMAND Screenshot {
+
+}
+[1595723076.736][INFO]: Waiting for pending navigations...
+[1595723076.737][INFO]: Done waiting for pending navigations. Status: ok
+[1595723077.038][INFO]: Waiting for pending navigations...
+[1595723077.039][INFO]: Done waiting for pending navigations. Status: ok
+[1595723077.039][INFO]: [8b182091179ad17b3ffdac675353a426] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAN4CAYAAAAiLPWhAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3VlwXOd5//nv6W4ABEgQBAiS4L6Dm7iIi0RqoWxLtiQnjuX84/yTuCaJkynnbi4ml6lUzeVU5S41Va7UJFVOZRz/y6okFi3ZsrVRtBaKosR9BUmRIEHsIPa9+..."
+[1595723077.069][INFO]: [8b182091179ad17b3ffdac675353a426] COMMAND Quit {
+
+}
+[1595723077.099][INFO]: [8b182091179ad17b3ffdac675353a426] RESPONSE Quit
